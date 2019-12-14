@@ -5,3 +5,7 @@ References, Notes, -- commits
     functions
     prototypes
     classes  
+
+
+-- initial commit; answered Questions and added txt file
+-- completed objects - dinosaurs; 
