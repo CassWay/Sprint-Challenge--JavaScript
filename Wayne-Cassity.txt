@@ -9,4 +9,5 @@ References, Notes, -- commits
 
 -- initial commit; answered Questions and added txt file
 -- completed objects - dinosaurs; 
--- completed arrays - unisWithUni
+-- completed arrays - unisWithUni;
+-- completed objects-array and Stretch;
