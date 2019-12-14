@@ -14,3 +14,4 @@ References, Notes, -- commits
 -- completed functions; 
 -- completed prototypes; - CuboidMaker
 -- completed classes and Stretch; - refactor into class
+-- Completed ALL and Stretch; -- refactored overthought issues; adjusted code, punctuation, and arrow functions for readability; 

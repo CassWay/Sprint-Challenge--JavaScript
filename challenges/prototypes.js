@@ -7,9 +7,9 @@
 */
 
 function CuboidMaker (dimensions) {
-  this.length = dimensions.length;
-  this.width = dimensions.width;
-  this.height = dimensions.height;
+  this.length = dimensions.length ;
+  this.width = dimensions.width ;
+  this.height = dimensions.height ;
 }
 
 /* == Step 2: Volume Method ==
@@ -19,7 +19,7 @@ function CuboidMaker (dimensions) {
 */
 
 CuboidMaker.prototype.volume = function () {
-  return this.length * this.width * this.height;
+  return this.length * this.width * this.height ;
 }
 
 /* == Step 3: Surface Area Method ==
@@ -29,7 +29,7 @@ CuboidMaker.prototype.volume = function () {
 */
 
 CuboidMaker.prototype.surfaceArea = function () {
-  return (2*(this.length * this.width + this.length * this.height + this.width * this.height));
+  return (2*(this.length * this.width + this.length * this.height + this.width * this.height)) ;
 }
 
 
@@ -39,9 +39,9 @@ CuboidMaker.prototype.surfaceArea = function () {
 */
 
 const cuboid = new CuboidMaker({
-  length: 4,
-  width: 5,
-  height: 5,
+  length: 4 ,
+  width: 5 ,
+  height: 5 ,
 });
 
 

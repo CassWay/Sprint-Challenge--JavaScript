@@ -8,7 +8,7 @@
 */
 
 function test(four, mudTires){
-  return `This is just a test: ${four} ${mudTires}`;
+  return `This is just a test: ${four} ${mudTires}` ;
 }
 
 function consume(a, b, cb){
@@ -28,7 +28,7 @@ function add(num1, num2){
 }
 
 function multiply(num1, num2){
-  return num1 * num2
+  return num1 * num2 
 }
 
 function greeting(first_name, last_name){
@@ -46,7 +46,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation:  The variable is in an ancestor (parent) scope
+// Explanation:  The variable is in an ancestor (parent) scope.
 
 
 const external = "I'm outside the function";

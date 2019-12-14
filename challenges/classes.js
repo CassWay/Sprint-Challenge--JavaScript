@@ -8,33 +8,33 @@ class CuboidMaker{
     }
 
     volume(){
-        return this.length * this.width * this.height;
+        return this.length * this.width * this.height ;
     }
 
     surfaceArea() {
-        return (2 * (this.length * this.width + this.length * this.height + this.width * this.height));
+        return (2 * (this.length * this.width + this.length * this.height + this.width * this.height)) ;
     } 
 }
 
 class CubeMaker extends CuboidMaker{
     constructor(dimension){
-        super(dimension);
-        this.side = dimension.side;
+        super(dimension) ;
+        this.side = dimension.side ;
     }
 
     volume() {
-        return Math.pow(this.side,3);
+        return Math.pow(this.side,3) ;
     }
 
     surfaceArea() {
-        return 6* Math.pow(this.side,2);
+        return 6* Math.pow(this.side,2) ;
     }
 }
 
 const cuboid = new CuboidMaker({
-    length: 4,
-    width: 5,
-    height: 5,
+    length: 4 ,
+    width: 5 ,
+    height: 5 ,
 });
 
 const cube = new CubeMaker ({
