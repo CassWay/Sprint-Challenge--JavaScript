@@ -11,3 +11,4 @@ References, Notes, -- commits
 -- completed objects - dinosaurs; 
 -- completed arrays - unisWithUni;
 -- completed objects-array and Stretch;
+-- completed functions; 
