@@ -70,8 +70,15 @@ const graduates = [
 /* Request 1: Create a new array called universities that contains all the universities in the graduates array. This will be an array of strings.
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
-const universities = [];
-console.log(universities);
+universitiesNewGrad = (graduates) => {
+  let universities = [];
+  for (i = 0; i < graduates.length; i++) {
+    universities.push(graduates[i].university)
+  }
+  return universities.sort()
+}
+console.log(universitiesNewGrad(graduates));
+
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
 
@@ -79,12 +86,29 @@ The resulting contact information strings should have a space between the first 
 "Josh josh@example.com"
 
 Log the result of your new array. */
-const contactInfo = [];
-console.log(contactInfo);
+contactInfoNameEmail = (graduates) => {
+  let contactInfo = [];
+  for (i = 0; i < graduates.length; i++) {
+    contactInfo.push(`${graduates[i].first_name} ${graduates[i].email}`)
+  }
+  return contactInfo.sort()
+}
+console.log(contactInfoNameEmail(graduates));
+
+
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
-const unisWithUni = [];
-console.log(unisWithUni);
+unisWithUniMatch = (graduates, strMatch) => {
+  let unisWithUni = [];
+  //console.log(graduates[0].universities.search("Uni"))
+  for (i = 0; i < graduates.length; i++) {
+    if (graduates[i].university.match(strMatch) !== null) {
+      unisWithUni.push(graduates[i].university)
+    }
+  }
+  return unisWithUni ;
+}
+console.log(unisWithUniMatch(graduates, /Uni/gi));
 
 
 // ==== ADVANCED Array Methods ====
