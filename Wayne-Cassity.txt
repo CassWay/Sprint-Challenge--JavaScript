@@ -1,0 +1,7 @@
+References, Notes, -- commits 
+
+#Order:
+    objects-arrays
+    functions
+    prototypes
+    classes  
