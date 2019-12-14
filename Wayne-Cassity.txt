@@ -1,0 +1,17 @@
+References, Notes, -- commits 
+
+#Order:
+    objects-arrays
+    functions
+    prototypes
+    classes  
+
+
+-- initial commit; answered Questions and added txt file
+-- completed objects - dinosaurs; 
+-- completed arrays - unisWithUni;
+-- completed objects-array and Stretch;
+-- completed functions; 
+-- completed prototypes; - CuboidMaker
+-- completed classes and Stretch; - refactor into class
+-- Completed ALL and Stretch; -- refactored overthought issues; adjusted code, punctuation, and arrow functions for readability; 
